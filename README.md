@@ -1,24 +1,14 @@
-# README
+# e-shop
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just decided to finish up a rails project I started a long time go  
+very close in finishing up the devise portion of it 
+small e-commerce site where users can list out their items. 
 
-Things you may want to cover:
+### Important gems
+* Rails 6+
+* paperclip
+* devise
+* more soon
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Might go a bit fancy with this in the near future
