@@ -3,4 +3,5 @@ class Listing < ApplicationRecord
     validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 
     validates :name, :description, :price, presence: true
+    validates :price, numericality: { greater_than: 0 }
 end
