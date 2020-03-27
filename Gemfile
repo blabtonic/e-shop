@@ -26,6 +26,7 @@ gem 'paperclip-dropbox'
 
 # used for user auth
 gem 'devise'
+gem 'figaro'
 
 gem 'stripe'
 # Use Redis adapter to run Action Cable in production
