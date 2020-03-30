@@ -2,12 +2,12 @@ class OrdersController < ApplicationController
   before_action :set_order, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
 
-  # view to show all orders sold
+  # view to show all orders sold SELECT STATEMENT
   def sales
     @orders = Order.all.where(seller: current_user).order('created_at DESC')
   end
 
-  # view to show all orders purchase
+  # view to show all orders purchase SELECT STATEMENT
   def purchases
     @orders = Order.all.where(buyer: current_user).order('created_at DESC')
   end
